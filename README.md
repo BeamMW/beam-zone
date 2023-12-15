@@ -24,10 +24,12 @@ Follow these guidelines to submit your project to the BeamZone DApp store. Befor
 {
   "version": "1.0",
   "publisherKey": "your_publisher_keys_here",
-  "ipfsHash": "your_ipfs_hash_here",
-  "ipfsGateway": "https://cloudflare-ipfs.com/ipfs/your_ipfs_hash_here",
-  "developerEmail": "your_email@example.com",
-  "developerSocials": {
+  "ipfs": {
+    "hash": "your_ipfs_hash_here",
+    "gateway": "https://cloudflare-ipfs.com/ipfs/your_ipfs_hash_here",
+  },
+  "developer": {
+    "email": "your_email@example.com",
     "twitter": "https://twitter.com/your_username",
     "github": "https://github.com/your_username",
     "website": "https://your_website.com"
