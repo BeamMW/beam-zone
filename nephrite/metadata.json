@@ -1,14 +1,13 @@
 {
-    "version": "1.0",
     "app": {
         "name": "Nephrite",
         "description": "A truly censorship-resistant confidential stablecoin",
         "x": "https://x.com/NephriteMoney",
-        "website": "https://forum.beam.mw/t/presenting-the-nephrite-manifesto-a-truly-censorship-resistant-confidential-stablecoin/331",
+        "website": "https://forum.beam.mw/t/presenting-the-nephrite-manifesto-a-truly-censorship-resistant-confidential-stablecoin/331"
     },
     "developer": {
         "name": "The Nephrite Team",
-        "key": "ec725486345d3d36e7dd2eb6f736ee31f826f0f0f78717127c1c29cd14323b5600",
+        "key": "ec725486345d3d36e7dd2eb6f736ee31f826f0f0f78717127c1c29cd14323b5600"
     },
     "category": "Stablecoin"
 }

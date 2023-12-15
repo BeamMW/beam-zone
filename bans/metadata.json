@@ -1,0 +1,13 @@
+{
+    "app": {
+        "name": "Beam Anonymous Name Service (BANS)",
+        "description": "Private identities on Beam blockchain",
+        "x": "https://x.com/BeamPrivacy",
+        "website": "https://medium.com/beam-mw/create-your-own-id-with-bans-beam-anonymous-name-service-34596e4f4f"
+    },
+    "developer": {
+        "name": "Beam Ecosystem",
+        "key": "d1cb721395e408dd74d7edd2ba383237ba503e2dd670505c8234e9c580e11e4001"
+    },
+    "category": "Naming Service"
+}
