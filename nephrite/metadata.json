@@ -1,5 +1,9 @@
 {
     "version": "1.0",
+    "app": {
+        "name": "Nephrite",
+        "description": "A truly censorship-resistant confidential stablecoin",
+    },
     "developer": {
       "publisher": {
         "name": "The Nephrite Team",
