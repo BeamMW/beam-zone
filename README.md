@@ -29,7 +29,7 @@ Follow these guidelines to submit your project to the BeamZone DApp store. Befor
   },
   "developer": {
     "publisher": {
-      "name": "Your Company",
+      "name": "Acme Corporation",
       "key": "your_publisher_keys_here",
     },
     "email": "your_email@example.com",
