@@ -15,7 +15,7 @@ Follow these guidelines to submit your project to the BeamZone DApp store. Befor
 3. In the `dapps` folder, create a new folder with your project's name in lowercase and hyphen-separated (e.g., `my-awesome-dapp`).
 4. Inside your project's folder, add the following files:
    - `banner.png` (strict size: 1200x628 pixels)
-   - `description.md` (project description with self-contained images, text, and markdown styling)
+   - `README.md` (project description with self-contained images, text, and markdown styling)
    - `metadata.json` (details on publisher keys, developer contact info, category, and IPFS hash)
 
 ### `metadata.json` Structure
