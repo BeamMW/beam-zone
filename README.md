@@ -34,10 +34,11 @@ interface AppInfo {
     category: string; // Category of your app: DEX, Charting, NFTs, Stablecoin, Naming Service, Lending and Borrowing...
     website?: string; // Optional: Website of your app or relevant information (forum post, whitepaper...)
     socials?: {
-      x?: string; // Optional: X profile link
+      x?: string; // Optional: X profile username
       telegram?: string; // Optional: Telegram group or channel
       discord?: string; // Optional: Discord server invitation link
       instagram?: string; // Optional: Instagram page
+      linkedin?: string; // Optional: LinkedIn page
       github?: string; // Optional: Link to the app's GitHub
     }
   };
