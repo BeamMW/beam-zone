@@ -29,15 +29,20 @@ Follow these guidelines to submit your project to the BeamZone DApp store. Befor
 ```ts
 interface AppInfo {
   app: {
-    name: string; // Name of your app
+    name: string; // Name of your app (eg. PrivacyForever)
     description: string; // Short description of your app
     category: string; // Category of your app: DEX, Charting, NFTs, Stablecoin, Naming Service, Lending and Borrowing...
-    x?: string; // Optional: X profile link
-    github?: string; // Optional: Link to the app's GitHub
     website?: string; // Optional: Website of your app or relevant information (forum post, whitepaper...)
+    socials?: {
+      x?: string; // Optional: X profile link
+      telegram?: string; // Optional: Telegram group or channel
+      discord?: string; // Optional: Discord server invitation link
+      instagram?: string; // Optional: Instagram page
+      github?: string; // Optional: Link to the app's GitHub
+    }
   };
-  developer: {
-    name: string; // Name of the developer
+  publisher: {
+    name: string; // Name of the developer (eg. ACME Corporation)
     key: string; // Your publisher key
     email?: string; // Optional: Email to contact the developer
     privacyPolicy?: string; // Optional: A link to your privacy policy. Privacy policy is required if your DApp call external servers
@@ -45,7 +50,7 @@ interface AppInfo {
 }
 ```
 
-Example can be seen in the [Nephrite folder](./nephrite)
+Example can be seen in the [Nephrite folder](./nephrite).
 
 ## Review Process
 
