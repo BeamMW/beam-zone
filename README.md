@@ -29,24 +29,24 @@ Follow these guidelines to submit your project to the BeamZone DApp store. Befor
 ```ts
 interface AppInfo {
   app: {
-    name: string; // Name of your app (eg. PrivacyForever)
-    description: string; // Short description of your app
+    name: string; // Name of your app (eg. PrivacyForever).
+    description: string; // Short description of your app.
     category: string; // Category of your app: DEX, Charting, NFTs, Stablecoin, Naming Service, Lending and Borrowing...
-    website?: string; // Optional: Website of your app or relevant information (forum post, whitepaper...)
+    website?: string; // Optional: Website of your app or relevant information (forum post, whitepaper...).
     socials?: {
-      x?: string; // Optional: X profile username
-      telegram?: string; // Optional: Telegram group or channel
-      discord?: string; // Optional: Discord server invitation link
-      instagram?: string; // Optional: Instagram page
-      linkedin?: string; // Optional: LinkedIn page
-      github?: string; // Optional: Link to the app's GitHub
+      x?: string; // Optional: X profile username.
+      telegram?: string; // Optional: Telegram group or channel.
+      discord?: string; // Optional: Discord server invitation link.
+      instagram?: string; // Optional: Instagram page.
+      linkedin?: string; // Optional: LinkedIn page.
+      github?: string; // Optional: Link to the app's GitHub.
     }
   };
   publisher: {
-    name: string; // Name of the developer (eg. ACME Corporation)
-    key: string; // Your publisher key
-    email?: string; // Optional: Email to contact the developer
-    privacyPolicy?: string; // Optional: A link to your privacy policy. Privacy policy is required if your DApp call external servers
+    name: string; // Name of the developer (eg. ACME Corporation).
+    key: string; // Your publisher key.
+    email?: string; // Optional: Email to contact the developer.
+    privacyPolicy?: string; // Optional: A link to your privacy policy. Privacy policy is required if your DApp call external servers.
   };
 }
 ```

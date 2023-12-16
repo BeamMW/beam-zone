@@ -10,9 +10,11 @@
             "github": "https://github.com/BeamMW"
         }
     },
-    "developer": {
+    "publisher": {
         "name": "Beam Ecosystem",
-        "key": "d1cb721395e408dd74d7edd2ba383237ba503e2dd670505c8234e9c580e11e4001"
+        "key": "d1cb721395e408dd74d7edd2ba383237ba503e2dd670505c8234e9c580e11e4001",
+        "email": "support@beam.mw",
+        "privacyPolicy": "https://beam.mw/privacy-policy"
     },
     "category": "Naming Service"
 }
